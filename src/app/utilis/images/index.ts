@@ -1,5 +1,5 @@
 import BannerImage from "./banner-Img.png"
-import AboutImage from "./About-image.jpg"
+import AboutImage from "./about-image.jpg"
 import FeatureImg1 from "./out-door-billboard.jpg"
 import FeatureImg2 from "./indoor.jpg"
 import FeatureImg3 from "./digital.jpg"
