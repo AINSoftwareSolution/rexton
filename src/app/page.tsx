@@ -1,7 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import AboutUs from './components/aboutus';
-import { AboutImage, BannerImage,FeatureImg1, FeatureImg2,FeatureImg3, WhyChooseUsImg, GalleryImg1,GalleryImg2,GalleryImg3,GalleryImg4,GalleryImg5 } from './utilis/images';
+import { AboutImage, BannerImage,FeatureImg1, FeatureImg2,FeatureImg3, WhyChooseUsImg,
+   GalleryImg1,GalleryImg2,GalleryImg3,GalleryImg4,GalleryImg5, ContactImg
+  } from './utilis/images';
 import Link from 'next/link';
 
 const Home= () => {
@@ -291,6 +293,77 @@ const Home= () => {
   </div>
 </div>
 {/*  Gallery End  */}
+
+{/* Contact Section Start */}
+
+<div className="bg-gray-100 py-16">
+  <div className="container mx-auto px-4">
+    <div className="flex flex-wrap">
+      {/*  Contact Form Section */}
+      <div className="w-full lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Contact Us</h2>
+        <div className="space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input type="text" placeholder="First Name" className="p-3 border border-gray-300 rounded-lg w-full" />
+            <input type="text" placeholder="Last Name" className="p-3 border border-gray-300 rounded-lg w-full" />
+            <input type="text" placeholder="Phone Number" className="p-3 border border-gray-300 rounded-lg w-full" />
+            <select className="p-3 border border-gray-300 rounded-lg w-full">
+              <option selected>Choose an Option</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <textarea placeholder="Message Here" className="p-3 border border-gray-300 rounded-lg w-full h-32"></textarea>
+          </div>
+          <div>
+            <a href="#" className="inline-flex items-center px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700">
+              Send Message
+              <i className="fas fa-arrow-right ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/*  Image Section  */}
+      <div className="w-full lg:w-1/2">
+        <Image src={ContactImg} alt="contactbillboard" className="w-full h-auto rounded-lg" />
+      </div>
+    </div>
+
+    {/*  Address Part  */}
+    <div className="mt-16">
+      <div className="flex flex-wrap">
+        <div className="w-full lg:w-1/3 flex items-center mb-6 lg:mb-0">
+          <div className="bg-gray-200 p-4 rounded-full mr-4 flex-shrink-0">
+            <i className='fas fa-phone-alt text-xl'></i>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold">Phone number</h3>
+            <p>(225) 555-0118</p>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/3 flex items-center mb-6 lg:mb-0">
+          <div className="bg-gray-200 p-4 rounded-full mr-4 flex-shrink-0">
+            <i className='far fa-envelope text-xl'></i>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold">Email Address</h3>
+            <p>michael.mitc@example.com</p>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/3 flex items-center">
+          <div className="bg-gray-200 p-4 rounded-full mr-4 flex-shrink-0">
+            <i className="fa fa-map-marker text-xl"></i>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold">Address</h3>
+            <p>2715 Ash Dr. San Jose, South Dakota</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
     
