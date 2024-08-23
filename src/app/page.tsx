@@ -1,113 +1,302 @@
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
+import AboutUs from './components/aboutus';
+import { AboutImage, BannerImage,FeatureImg1, FeatureImg2,FeatureImg3, WhyChooseUsImg, GalleryImg1,GalleryImg2,GalleryImg3,GalleryImg4,GalleryImg5 } from './utilis/images';
+import Link from 'next/link';
 
-export default function Home() {
+const Home= () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <>
+   <div className="relative inset-0 h-screen w-full flex items-center justify-center text-center mb-9 banner">
+      {/* Full-Screen Background Image */}
+      <Image 
+        src={BannerImage} 
+        alt="Main Billboard Image" 
+        layout="fill" 
+        objectFit="cover" 
+        quality={100}
+        className="absolute inset-0 z-[-1]" 
+      />
+
+      {/* Overlay and Content */}
+      <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center p-8">
+        <h1 className="text-4xl font-bold text-white mb-4">Welcome to Our Website</h1>
+        <p className="text-lg text-white">Your journey to success starts here.</p>
+      </div>
+    </div>
+    {/* // About Section  */}
+    <div className="container inset-0 bg-gray mx-auto px-2 py-8 lg:px-12 lg:py-12 mt-9 about-us">
+      <div className="flex flex-wrap lg:flex-nowrap">
+        {/* Left Column: Text Section */}
+        <div className="w-full lg:w-5/12 p-2">
+          <div className="text-white ">
+            <h1 className="text-2xl font-bold text-white">About Us</h1>
+            <h1 className="text-2xl mt-3">The Digital Cybsec and Transform Billboard</h1>
+            <p className="mt-2">
+              Established in 2016, REXTON Advertising has become one of India's leading suppliers of LED Displays, LED Signages, and LED Mobile Vans. With over 8,000 square feet of LED screens installed across the country, we are dedicated to delivering cutting-edge solutions tailored to our customers' needs.
+            </p>
+            <p className="mt-">
+              Our advanced technology ensures that our products are quick to install, easy to use, and portable. We cater to a diverse range of industries, including malls, retail chains, and hotels, offering a variety of LED displays such as:
+            </p>
+            <ul className="list-disc list-inside mt-3">
+               <li>Outdoor LED Displays</li>
+              <li>Indoor LED Displays</li>
+            </ul>
+            <div className="mt-3">
+              <Link href="#" className="btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 inline-flex items-center">
+                Learn More <i className="ml-2 icon icon-right-arrow"></i>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* Right Column: Image and Stats Section */}
+        <div className="w-full lg:w-7/12 lg:ml-8 mt-8 lg:mt-0 rounde-lg p-5 ">
+          <div className="relative">
+            <Image src={AboutImage} alt="Main Billboard Image" className="w-full h-auto rounded shadow-lg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* About Section End  */}
+
+   
+    {/* <!-- Features Section --> */}
+<div className="container inset-0 mx-auto px-2 py-8 bg-gray-400 lg:px-12 lg:py-12 mt-9 rounded-lg">
+  <div className="relative">
+    <div className="text-center">
+      <h3 className="text-white font-bold text-xl mb-2 mt-9">
+        Our Features
+      </h3>
+      <h4
+        className="font-sans text-[30px] font-semibold text-white mb-5"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
+        Supercharge Your Business <br />
+        with Billboards
+      </h4>
+    </div>
+
+    <div className="mt-10">
+      <div className="flex flex-wrap -mx-4">
+        <div className="w-full lg:w-1/3 px-4 mb-10 lg:mb-0">
+          <div
+            className="features-billboard-card-body"
+            data-aos="fade-up"
+            data-aos-duration="2000"
           >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+            <div className="img-effect imghover relative overflow-hidden">
+              <figure>
+                <Image
+                  className="rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-110 active:scale-125 h-72 w-full object-cover"
+                  src={FeatureImg1}
+                  alt="billboard1"
+                  data-aos="flip-left"
+                  data-aos-duration="2000"
+                />
+              </figure>
+            </div>
+            <div className="mt-3">
+              <h3
+                className="font-sans font-semibold text-[24px] text-black text-center"
+                data-aos="fade-up"
+              >
+                Outdoor Billboard 
+              
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/3 px-4 mb-10 lg:mb-0">
+          <div
+            className="features-billboard-card-body"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            <div className="img-effect imghover relative overflow-hidden">
+              <figure>
+                <Image
+                  className="rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-110 active:scale-125 h-72 w-full object-cover"
+                  src={FeatureImg2}
+                  alt="billboard2"
+                  data-aos="flip-down"
+                  data-aos-duration="2000"
+                />
+              </figure>
+            </div>
+            <div className="mt-3" data-aos="fade-up">
+              <h3
+                className="font-sans font-semibold text-[24px] text-black text-center"
+                data-aos="fade-up"
+              >
+            Indoor Billboard
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div className="w-full lg:w-1/3 px-4 mb-10 lg:mb-0">
+          <div
+            className="features-billboard-card-body"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            <div className="img-effect imghover relative overflow-hidden">
+              <figure>
+                <Image
+                  className="rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-110 active:scale-125 h-72 w-full object-cover"
+                  src={FeatureImg3}
+                  alt="billboard3"
+                  data-aos="flip-right"
+                  data-aos-duration="2000"
+                
+                />
+              </figure>
+            </div>
+            <div className="mt-3">
+              <h3
+                className="font-sans font-bold text-[20px] text-black text-center mb-2"
+              >
+               Digital Light 
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/* <!-- Feature section end --> */}
+
+{/* Why ChooseUS Section Start  */}
+
+<div className="container inset-0  mx-auto px-2 py-8 lg:px-12 lg:py-12 choose-us">
+  <div className="why-choose-us-section">
+    <div className="flex flex-wrap">
+      {/*  Left Column: Text Section */}
+      <div className="w-full lg:w-5/12 p-5">
+        <div className="about-text">
+          <h1 className="text-white font-semibold text-2xl">Why Choose Us</h1>
+          <h1 className="text-white mt-4 text-3xl font-bold leading-snug">
+            The Digital Cybsec and Transform Billboard
+          </h1>
+          <p className="text-white mt-3">
+            Billboard advertising is a powerful marketing tool. It helps
+            businesses gain visibility and reach their target audience.
+            Advertising is a powerful tool for business growth.
+          </p>
+          <div className="mt-4">
+            <a href="#" className="inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition duration-300">
+              Learn More <i className="ml-2 icon icon-right-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* Right Column: Image and Stats Section  */}
+      <div className="w-full lg:w-6/12 lg:ml-auto relative mt-8 lg:mt-0">
+  <div className="relative">
+    <div className="main-image">
+      <Image
+        src={WhyChooseUsImg}
+        alt="Main Billboard Image"
+        className="w-full h-80 rounded-lg shadow-lg"
+      />
+    </div>
+    <div
+      className="absolute bg-yellow-500 rounded-lg p-7 text-white flex flex-col items-center justify-center"
+      style={{ top: "50%", right: "10px", transform: "translateY(-50%)" }}
+    >
+      <div className="stat-item-center mb-0 text-center">
+        <h2 className="text-4xl font-bold">100%</h2>
+        <p className="text-lg">Billboard</p>
+      </div>
+      <hr className="border-t border-white opacity-50 my-2 w-full" />
+      <div className="stat-item text-center">
+        <h2 className="text-4xl font-bold">250+</h2>
+        <p className="text-lg">Happy Clients</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+{/*  Why choose-us section end */}
+
+{/* Gallery Section Start */}
+<div className="container mx-auto py-12 bg-cover bg-center bg-fixed">
+  <div className="latest-gallery">
+    <div className="text-center mb-10">
+      <h1 className="text-sm text-white uppercase tracking-wider">Latest Gallery</h1>
+      <h1 className="text-3xl text-white font-bold">Captivate Your Audience with Billboard Magic</h1>
+    </div>
+
+    {/*  First Row of Images  */}
+    <div className="flex flex-wrap -mx-2">
+      {/*  Image 1 */}
+      <div className="w-full lg:w-4/12 px-2 mb-4" data-aos="zoom-in" data-aos-duration="2000">
+        <div className="relative overflow-hidden rounded-lg shadow-lg group">
+          <Image src={GalleryImg1} alt="billboard1" className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-105" />
+          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            <h3 className="text-white text-xl">Outdoor the Most Advertising</h3>
+          </div>
         </div>
       </div>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      {/*  Image 2  */}
+      <div className="w-full lg:w-5/12 px-2 mb-4" data-aos="zoom-out" data-aos-duration="2000">
+        <div className="relative overflow-hidden rounded-lg shadow-lg group">
+        <Image src={GalleryImg2} alt="billboard1" className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-105" />
+          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            <h3 className="text-white text-xl">Outdoor the Most Advertising</h3>
+          </div>
+        </div>
       </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      {/*  Image 3 */}
+      <div className="w-full lg:w-3/12 px-2 mb-4" data-aos="zoom-out" data-aos-duration="2000">
+        <div className="relative overflow-hidden rounded-lg shadow-lg group">
+        <Image src={GalleryImg3} alt="billboard1" className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-105" />
+          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            <h3 className="text-white text-xl">Indoor the Most Advertising</h3>
+          </div>
+        </div>
       </div>
-    </main>
+    </div>
+
+    {/* Second Row of Images  */}
+    <div className="flex flex-wrap -mx-2 mt-4">
+      {/*  Image 4  */}
+      <div className="w-full lg:w-4/12 px-2 mb-4" data-aos="zoom-in" data-aos-duration="2000">
+        <div className="relative overflow-hidden rounded-lg shadow-lg group">
+        <Image src={GalleryImg4} alt="billboard1" className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-105" />
+          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            <h3 className="text-white text-xl">Led Sign Board</h3>
+          </div>
+        </div>
+      </div>
+
+      {/*  Image 5  */}
+      <div className="w-full lg:w-5/12 px-2 mb-4" data-aos="zoom-out" data-aos-duration="2000">
+        <div className="relative overflow-hidden rounded-lg shadow-lg group">
+        <Image src={GalleryImg5} alt="billboard1" className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-105" />
+          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            <h3 className="text-white text-xl">Outdoor the Most Advertising</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/*  Gallery End  */}
+
+
+    
+    </>
+
   );
-}
+};
+
+export default Home;
