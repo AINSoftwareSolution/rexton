@@ -1,5 +1,5 @@
 import BannerImage from "./banner-Img.png"
-import AboutImage from "./About-image.jpg"
+import AboutImage from "./about-image.jpg"
 import FeatureImg1 from "./out-door-billboard.jpg"
 import FeatureImg2 from "./indoor.jpg"
 import FeatureImg3 from "./digital.jpg"
@@ -10,6 +10,10 @@ import GalleryImg3 from "./blogimg5.jpg"
 import GalleryImg4 from "./Led-sign2.jpg"
 import GalleryImg5 from "./advertisement-display-boards.jpeg"
 import ContactImg from "./Contact-us-image.webp"
+import OutdoorLed from "./outdoor-led-display.jpg"
+import IndoorLed from "./Indoor-HD-LED-Screen-2.webp"
+import RentalImg from "./rental.jpg"
+import DigitalImg from "./Digital-Signage.jpg-3.webp"
 export{
     BannerImage,
     AboutImage,
@@ -22,6 +26,10 @@ export{
     GalleryImg3,
     GalleryImg4,
     GalleryImg5,
-    ContactImg
+    ContactImg,
+    OutdoorLed,
+    IndoorLed,
+    RentalImg,
+    DigitalImg
 
 }
