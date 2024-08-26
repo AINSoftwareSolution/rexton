@@ -7,11 +7,15 @@ import { AboutImage } from "../utilis/images"
 const AboutUs = () => {
   return (
    <>
-    <div className="container inset-0 bg-gray mx-auto px-2 ">
+    <div className="container inset-0 bg-gray mx-auto px-2 py-8 ">
         <div className="flex flex-wrap lg:flex-nowrap">
-          <div className="w-full lg:w-5/12 p-2">
+          <div className="w-full lg:w-5/12 p-2 mb-4 mt-5">
             <div>
-              <h1 className="text-2xl font-bold">About Us</h1>
+              {/* <h1 className="text-2xl font-bold">About Us</h1> */}
+              <div className="relative font-2xl font-bold text-[15px] py-1.5 tracking-wide mb-6 inline-block text-[var(--main-color)] uppercase border-t border-b border-[var(--main-color)]">
+              <i className="flaticon-wood-1"></i> About us
+              </div>
+
               <h1 className="text-2xl mt-3">The Digital Cybsec and Transform Billboard</h1>
               <p className="mt-2">
                 Established in 2016, REXTON Advertising has become one of India&apos;s leading suppliers of LED Displays,

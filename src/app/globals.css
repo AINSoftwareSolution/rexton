@@ -20,3 +20,32 @@ body{
   background-image: url("../app/utilis/images/black-background.jpg");
 } 
 
+/* Custom styles for specific elements not covered by Tailwind */
+.contact-one_curve {
+  /* Custom styling for the curved overlay */
+}
+
+.contact-one_image img {
+  /* Specific styles for the image, if necessary */
+}
+
+.contact-one_ball {
+  /* Custom styling for the ball element */
+  background-size: cover;
+}
+
+.fllopi-title {
+  /* Additional styles for the title, if necessary */
+}
+
+.fllopi-email-title {
+  /* Styles for the email title */
+}
+
+.fllopi-email-address {
+  /* Styles for the email address */
+}
+
+.theme-btn.submit-btn {
+  /* Custom styles for the submit button */
+}
