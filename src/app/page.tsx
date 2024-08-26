@@ -1,7 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import { AboutImage, BannerImage, FeatureImg1, FeatureImg2, FeatureImg3, WhyChooseUsImg, GalleryImg1, GalleryImg2, GalleryImg3, GalleryImg4, GalleryImg5 } from './utilis/images';
-import Link from 'next/link';
+import { Button } from './components';
+import {
+  AboutImage, BannerImage, FeatureImg1, FeatureImg2, FeatureImg3, WhyChooseUsImg,
+  GalleryImg1, GalleryImg2, GalleryImg3, GalleryImg4, GalleryImg5
+} from './utilis/images';
 
 const Home = () => {
   return (
@@ -45,10 +48,8 @@ const Home = () => {
                 <li>Outdoor LED Displays</li>
                 <li>Indoor LED Displays</li>
               </ul>
-              <div className="mt-3">
-                <Link href="#" className="btn bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 inline-flex items-center">
-                  Learn More <i className="ml-2 icon icon-right-arrow"></i>
-                </Link>
+              <div className="mt-6">
+                <Button />
               </div>
             </div>
           </div>
