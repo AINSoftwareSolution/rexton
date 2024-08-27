@@ -77,7 +77,7 @@ const Navbar = () => {
                                     onClick={toggleDropdown}
                                     onMouseEnter={toggleDropdown}
                                 >
-                                    Dropdown
+                                    Services
                                     <svg className="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                                     </svg>
@@ -102,11 +102,7 @@ const Navbar = () => {
                                     </ul>
                                 </div>
                             </li>
-                            <li>
-                                <Link href="/services" className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">
-                                    Services
-                                </Link>
-                            </li>
+                            
                             <li>
                                 <Link href="/contact" className="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">
                                     Contact

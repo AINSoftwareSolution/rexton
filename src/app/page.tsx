@@ -9,6 +9,8 @@ import {
   RentalImg,
   DigitalImg
 } from './utilis/images';
+import Contact from './components/Contact';
+import Client from './components/Client';
 
 
 const Home = () => {
@@ -45,20 +47,15 @@ const Home = () => {
         <div className="w-full lg:w-5/12 p-5">
           <div className="about-text">
             <h1 className="text-white mt-4 text-3xl font-bold leading-snug">
-              The Digital Cybsec and Transform Billboard
+        Why Choose Us
             </h1>
-            <p className="text-white mt-3">
+            <p className="text-white mt-5 mb-5">
               Billboard advertising is a powerful marketing tool. It helps
               businesses gain visibility and reach their target audience.
               Advertising is a powerful tool for business growth.
             </p>
-            <div className="mt-4">
-              <a
-                href="#"
-                className="inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition duration-300"
-              >
-                Learn More <i className="ml-2 icon icon-right-arrow"></i>
-              </a>
+            <div className="mt-5">
+             <Button />
             </div>
           </div>
         </div>
@@ -98,27 +95,22 @@ const Home = () => {
   {/*  Why choose-us section end */ }
   {/* Services section start */ }
   <div className="container inset-0 mx-auto px-2 py-8">
-    <div className="services-section">
+    <div className="services-section text-white ">
       <h3 className="text-center font-bold text-2xl mb-4 mt-4">Our Services</h3>
       <div className="flex flex-wrap lg:flex-nowrap items-stretch">
         {/*  Left Column: Text Section */}
         <div className="w-full lg:w-4/8 p-5 lg:pr-4 flex flex-col justify-between">
-          <div className="about-text">
-            <h1 className="text-black text-3xl font-bold leading-snug">
+          <div className="about-text text-white">
+            <h1 className=" text-3xl font-bold leading-snug">
               Outdoor LED Screens
             </h1>
-            <p className="text-black mt-3 leading-relaxed">
+            <p className=" mt-3 leading-relaxed">
               Outdoor LED displays utilize DIP and SMD technology, with pitch options like P2.5, P3, P3.91, P4, P4.8, P5, P6, P8, and P10. Our outdoor LEDs, including Nationstar, offer high reliability, contrast, wide viewing angles, and excellent consistency. <br />
 
             </p>
-            <div className="mt-4">
-              <a
-                href="#"
-                className="inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition duration-300"
-              >
-                Learn More <i className="ml-2 icon icon-right-arrow"></i>
-              </a>
-            </div>
+            <div className="mt-5">
+                <Button />
+              </div>
           </div>
         </div>
         {/* Right Column: Image Section */}
@@ -150,22 +142,17 @@ const Home = () => {
         </div>
         {/* Left Column: Text Section */}
         <div className="w-full lg:w-4/8 p-5 lg:pl-4 flex flex-col justify-between">
-          <div className="about-text">
-            <h1 className="text-black text-3xl font-bold leading-snug">
+          <div className="about-text text-white">
+            <h1 className=" text-3xl font-bold leading-snug">
               Indoor LED Screens
             </h1>
-            <p className="text-black mt-3 leading-relaxed">
+            <p className=" mt-3 leading-relaxed">
               Indoor Led display is based on SMD Technology. Indoor Finest pitch provides Seamless high resolution starting from Pitch 1.25mm, P2, P2.5, P3, P3.91, P4, P4.8, P5, P6.Excellent design, Top Quality, Perfect visual performance, better colour consistency.
 
             </p>
-            <div className="mt-4">
-              <a
-                href="#"
-                className="inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition duration-300"
-              >
-                Learn More <i className="ml-2 icon icon-right-arrow"></i>
-              </a>
-            </div>
+            <div className="mt-5">
+                <Button />
+              </div>
           </div>
         </div>
       </div>
@@ -180,21 +167,16 @@ const Home = () => {
       <div className="flex flex-wrap lg:flex-nowrap items-stretch">
         {/*  Left Column: Text Section */}
         <div className="w-full lg:w-4/8 p-5 lg:pr-4 flex flex-col justify-between">
-          <div className="about-text">
-            <h1 className="text-black text-3xl font-bold leading-snug">
+          <div className="about-text text-white ">
+            <h1 className=" text-3xl font-bold leading-snug">
               Rental LED Screens
             </h1>
-            <p className="text-black mt-3 leading-relaxed">
+            <p className=" mt-3 leading-relaxed">
               LED Rental series has both Indoor and Outdoor rental led display. Indoor rental led display can be used in exhibition centers, hotel halls, conferences, School-college Function, Live telecast of sports, meetings etc. Outdoor rental displays can be used in Music Festival, wedding, community campaign etc
             </p>
-            <div className="mt-4">
-              <a
-                href="#"
-                className="inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition duration-300"
-              >
-                Learn More <i className="ml-2 icon icon-right-arrow"></i>
-              </a>
-            </div>
+            <div className="mt-5">
+                <Button />
+              </div>
           </div>
         </div>
         {/* Right Column: Image Section */}
@@ -228,21 +210,16 @@ const Home = () => {
         </div>
         {/* Left Column: Text Section */}
         <div className="w-full lg:w-4/8 p-5 lg:pl-4 flex flex-col justify-between">
-          <div className="about-text">
-            <h1 className="text-black text-3xl font-bold leading-snug">
+          <div className=" text-white about-text">
+            <h1 className=" text-3xl font-bold leading-snug">
               Digital Display
             </h1>
-            <p className="text-black mt-3 leading-relaxed">
+            <p className=" mt-3 leading-relaxed">
               Digital Graphic Display is a popular choice for Digital Signage applications. The screens come with an in-built HD media player which requires no additional hardware. Various sizes of screens are available to your requirement.
             </p>
-            <div className="mt-4">
-              <a
-                href="#"
-                className="inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition duration-300"
-              >
-                Learn More <i className="ml-2 icon icon-right-arrow"></i>
-              </a>
-            </div>
+            <div className="mt-5">
+                <Button />
+              </div>
           </div>
         </div>
       </div>
@@ -255,7 +232,7 @@ const Home = () => {
   {/* <!-- Features Section --> */ }
   <div className="container inset-0 mx-auto px-2 py-8  lg:px-12 lg:py-12 ">
     <div className="relative">
-      <div className="text-center">
+      <div className=" text-white text-center">
         <h3 className=" font-bold text-xl mb-2 mt-9">Our Features</h3>
         <h4 className="font-sans text-[30px] font-semibold  mb-5">
           Supercharge Your Business <br />
@@ -285,7 +262,7 @@ const Home = () => {
               </div>
               <div className="mt-3">
                 <h3
-                  className="font-sans font-semibold text-[24px] text-black text-center"
+                  className="font-sans font-semibold text-[24px] text-white text-center"
                   data-aos="fade-up"
                 >
                   Outdoor Billboard
@@ -312,7 +289,7 @@ const Home = () => {
               </div>
               <div className="mt-3" data-aos="fade-up">
                 <h3
-                  className="font-sans font-semibold text-[24px] text-black text-center"
+                  className="font-sans font-semibold text-[24px] text-white text-center"
                   data-aos="fade-up"
                 >
                   Indoor Billboard
@@ -338,7 +315,7 @@ const Home = () => {
                 </figure>
               </div>
               <div className="mt-3">
-                <h3 className="font-sans font-bold text-[20px] text-black text-center mb-2">
+                <h3 className="font-sans font-bold text-[20px] text-white text-center mb-2">
                   Digital Light
                 </h3>
               </div>
@@ -399,7 +376,7 @@ const Home = () => {
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               <h3 className="text-white text-xl">
-                Outdoor the Most Advertising
+                Indoor the Most Advertising
               </h3>
             </div>
           </div>
@@ -418,8 +395,8 @@ const Home = () => {
               className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-              <h3 className="text-white text-xl">
-                Indoor the Most Advertising
+              <h3 className="text-white text-xl text-center">
+                Digital Display 
               </h3>
             </div>
           </div>
@@ -460,7 +437,7 @@ const Home = () => {
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               <h3 className="text-white text-xl">
-                Outdoor the Most Advertising
+                Rental the Most Advertising
               </h3>
             </div>
           </div>
@@ -468,104 +445,12 @@ const Home = () => {
       </div>
     </div>
   </div>
+  <Contact />
+  <Client />
+</div>
   {/*  Gallery End  */ }
 
-  {/* Contact Section Start */ }
-
-  <div className="bg-gray-100 py-16">
-    <div className="container mx-auto px-4">
-      <div className="flex flex-wrap">
-        {/*  Contact Form Section */}
-        <div className="w-full lg:w-1/2 mb-8 lg:mb-0 lg:pr-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            Contact Us
-          </h2>
-          <div className="space-y-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input
-                type="text"
-                placeholder="First Name"
-                className="p-3 border border-gray-300 rounded-lg w-full"
-              />
-              <input
-                type="text"
-                placeholder="Last Name"
-                className="p-3 border border-gray-300 rounded-lg w-full"
-              />
-              <input
-                type="text"
-                placeholder="Phone Number"
-                className="p-3 border border-gray-300 rounded-lg w-full"
-              />
-              <select className="p-3 border border-gray-300 rounded-lg w-full">
-                <option selected>Choose an Option</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-              <textarea
-                placeholder="Message Here"
-                className="p-3 border border-gray-300 rounded-lg w-full h-32"
-              ></textarea>
-            </div>
-            <div>
-              <a
-                href="#"
-                className="inline-flex items-center px-6 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700"
-              >
-                Send Message
-                <i className="fas fa-arrow-right ml-2"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        {/*  Image Section  */}
-        <div className="w-full lg:w-1/2">
-          <Image
-            src={ContactImg}
-            alt="contactbillboard"
-            className="w-full h-auto rounded-lg"
-          />
-        </div>
-      </div>
-
-      {/*  Address Part  */}
-      <div className="mt-16">
-        <div className="flex flex-wrap">
-          <div className="w-full lg:w-1/3 flex items-center mb-6 lg:mb-0">
-            <div className="bg-gray-200 p-4 rounded-full mr-4 flex-shrink-0">
-              <i className="fas fa-phone-alt text-xl"></i>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold">Phone number</h3>
-              <p>(225) 555-0118</p>
-            </div>
-          </div>
-          <div className="w-full lg:w-1/3 flex items-center mb-6 lg:mb-0">
-            <div className="bg-gray-200 p-4 rounded-full mr-4 flex-shrink-0">
-              <i className="far fa-envelope text-xl"></i>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold">Email Address</h3>
-              <p>michael.mitc@example.com</p>
-            </div>
-          </div>
-          <div className="w-full lg:w-1/3 flex items-center">
-            <div className="bg-gray-200 p-4 rounded-full mr-4 flex-shrink-0">
-              <i className="fa fa-map-marker text-xl"></i>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold">Address</h3>
-              <p>2715 Ash Dr. San Jose, South Dakota</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-  {/* Contact Section End  */ }
+ 
     </>
   );
 };
