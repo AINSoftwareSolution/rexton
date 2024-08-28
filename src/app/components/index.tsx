@@ -1,7 +1,7 @@
-import AboutUs from "./aboutus";
 import Button from "./Button";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Title from "./Title";
 
 
-export { AboutUs, Button, Footer, Navbar }
+export { Button, Footer, Navbar, Title }

@@ -88,16 +88,16 @@ const Navbar = () => {
                                 >
                                     <ul className="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                                         <li>
-                                            <Link href="#" className="block px-4 py-2 hover:bg-gray-100">Outdoor LED Screens</Link>
+                                            <Link href="/services/outdoor-led-screens" className="block px-4 py-2 hover:bg-gray-100">Outdoor LED Screens</Link>
                                         </li>
                                         <li>
-                                            <Link href="#" className="block px-4 py-2 hover:bg-gray-100">Indoor LED Screens</Link>
+                                            <Link href="/services/indoor-led-motion" className="block px-4 py-2 hover:bg-gray-100">Indoor LED Screens</Link>
                                         </li>
                                         <li>
-                                            <Link href="#" className="block px-4 py-2 hover:bg-gray-100">Rental LED Screens</Link>
+                                            <Link href="/services/rental-led-screens" className="block px-4 py-2 hover:bg-gray-100">Rental LED Screens</Link>
                                         </li>
                                         <li>
-                                            <Link href="#" className="block px-4 py-2 hover:bg-gray-100">Digital Displays</Link>
+                                            <Link href="/services/digital-displays" className="block px-4 py-2 hover:bg-gray-100">Digital Displays</Link>
                                         </li>
                                     </ul>
                                 </div>
