@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { AboutImage } from "../utilis/images"
+// import { AboutImage } from "../utilis/images"
 import Button from './Button';
 
 const AboutUs = () => {
@@ -35,9 +35,11 @@ const AboutUs = () => {
 
           {/* Right Column: Image and Stats Section */}
           <div className="w-full lg:w-7/12 lg:ml-8 mt-8 lg:mt-0 rounde-lg p-5 ">
-            <div className="relative">
-              <Image src={AboutImage} alt="Main Billboard Image" className="w-full h-auto rounded shadow-lg" />
-            </div>
+          <video className="h-full w-full rounded-lg" controls autoPlay muted>
+      <source src="/about-video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
           </div>
         </div>
       </div>
