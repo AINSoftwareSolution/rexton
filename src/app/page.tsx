@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { AboutUs, Button } from './components';
 import {
    BannerImage, FeatureImg1, FeatureImg2, FeatureImg3, WhyChooseUsImg,
-  GalleryImg1, GalleryImg2, GalleryImg3, GalleryImg4, GalleryImg5, ContactImg,
+  GalleryImg1, GalleryImg2, GalleryImg3, GalleryImg4, GalleryImg5,
   OutdoorLed,
   IndoorLed,
   RentalImg,

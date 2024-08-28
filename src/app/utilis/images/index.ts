@@ -1,5 +1,5 @@
 import BannerImage from "./banner-Img.png"
-import AboutImage from "./about-image.jpg"
+// import AboutImage from "./about-image.jpg"
 import FeatureImg1 from "./out-door-billboard.jpg"
 import FeatureImg2 from "./indoor.jpg"
 import FeatureImg3 from "./digital.jpg"
@@ -9,8 +9,8 @@ import GalleryImg2 from "./indoorbillboard-4 (1).jpg"
 import GalleryImg3 from "./blogimg5.jpg"
 import GalleryImg4 from "./Led-sign2.jpg"
 import GalleryImg5 from "./RentalLed.jpg"
-import ContactImg from "./Contact-us-image.webp"
-import OutdoorLed from "./outdoor-led-display.jpg"
+import ApplicationOutdoor from "./application-outdoor.jpeg"
+import OutdoorLed from "./OutdoorLED.webp"
 import IndoorLed from "./Indoor-HD-LED-Screen-2.webp"
 import RentalImg from "./rental.jpg"
 import DigitalImg from "./Digital-Signage.jpg-3.webp"
@@ -25,20 +25,11 @@ import ClientImage7 from "./client/client07.jpg"
 import ClientImage8 from "./client/client08.png"
 import ClientImage9 from "./client/client09.png"
 import ClientImage10 from "./client/client10.jpeg"
-// import ClientImage11 from "./client/client11_.jpeg"
-// import ClientImage12 from "./client/client12_.jpeg"
-// import ClientImage13 from "./client/client13_.jpeg"
-// import ClientImage14 from "./client/client14_.jpeg"
-// import ClientImage15 from "./client/client15_.jpeg"
-// import ClientImage16 from "./client/client16_.jpeg"
-// import ClientImage17 from "./client/client17_.jpeg"
-// import ClientImage18 from "./client/client18_.jpeg"
-// import ClientImage19 from "./client/client19_.jpeg"
-// import ClientImage20 from "./client/client20_.jpeg"
+
 
 export{
     BannerImage,
-    AboutImage,
+    // AboutImage,
     FeatureImg1,
     FeatureImg2,
     FeatureImg3,
@@ -48,7 +39,6 @@ export{
     GalleryImg3,
     GalleryImg4,
     GalleryImg5,
-    ContactImg,
     OutdoorLed,
     IndoorLed,
     RentalImg,
@@ -63,15 +53,6 @@ export{
     ClientImage8,
     ClientImage9,
     ClientImage10,
-    // ClientImage11,
-    // ClientImage12,
-    // ClientImage13,
-    // ClientImage14,
-    // ClientImage15,
-    // ClientImage16,
-    // ClientImage17,
-    // ClientImage18,
-    // ClientImage19,
-    // ClientImage20
-
+    ApplicationOutdoor
+    
 }

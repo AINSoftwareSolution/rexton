@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { ContactImg } from "../utilis/images";
+// import { ContactImg } from "../utilis/images";
 
 const Contact = () => {
   return (
