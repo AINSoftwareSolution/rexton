@@ -31,9 +31,9 @@ const Home = () => {
       <AboutUs />
 
 
-      <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12">
+      {/* <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12">
         <div className="flex flex-wrap">
-          {/*  Left Column: Text Section */}
+          {/*  Left Column: Text Section 
           <div className="w-full lg:w-5/12 p-5">
             <div className="about-text">
               <h1 className=" mt-4 text-3xl font-bold leading-snug">
@@ -49,7 +49,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          {/* Right Column: Image and Stats Section  */}
+          {/* Right Column: Image and Stats Section  
           <div className="w-full lg:w-6/12 lg:ml-auto relative mt-8 lg:mt-0">
             <div className="relative">
               <div className="main-image">
@@ -82,7 +82,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+       */}
 
       <Features  />
       <ServiceList />
