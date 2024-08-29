@@ -25,6 +25,7 @@ import ClientImage7 from "./client/client07.jpg"
 import ClientImage8 from "./client/client08.png"
 import ClientImage9 from "./client/client09.png"
 import ClientImage10 from "./client/client10.jpeg"
+import ApplicationIndoorLed from "./appication-indoor.jpeg"
 
 
 export{
@@ -53,6 +54,7 @@ export{
     ClientImage8,
     ClientImage9,
     ClientImage10,
-    ApplicationOutdoor
+    ApplicationOutdoor,
+    ApplicationIndoorLed
     
 }
