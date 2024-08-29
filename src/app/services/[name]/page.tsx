@@ -20,7 +20,7 @@ const ServiceDetails = ({ params }: { params: { name: string } }) => {
   }
 
   return (
-    <div className="container mx-auto px-4 mt-20">
+    <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12 mt-20">
       <div className="flex flex-wrap lg:flex-nowrap">
         {/* Left Column: Text Section */}
         <div className="w-full lg:w-5/12 p-4 lg:p-2 mb-5 mt-5">
@@ -41,7 +41,7 @@ const ServiceDetails = ({ params }: { params: { name: string } }) => {
           ) : (
             <Image src={matchedService.imgSrc} alt={matchedService.imgAlt} />
           )}
-        </div>     
+        </div>
       </div>
 
       {matchedService.applicationImg ? (
@@ -59,28 +59,28 @@ const ServiceDetails = ({ params }: { params: { name: string } }) => {
           </div>
         </>
       ) : (
-    <>
-    <div className="grid gap-4 grid-cols-3">
-      <div className="w-full lg:w-1/2">
-        <h1 className="text-2xl font-bold mb-2">Applications:</h1>
-        <ul className="list-disc list-inside mb-4">
-          {matchedService.applications.map((application, index) => (
-            <li key={index}>{application}</li>
-          ))}
-        </ul>
-      </div>
-      <div className="w-full lg:w-1/2">
-        <h1 className="text-2xl font-bold mb-2">Features:</h1>
-        <ul className="list-disc list-inside">
-          {matchedService.features.map((feature, index) => (
-            <li key={index}>{feature}</li>
-          ))}
-        </ul>
-      </div>
-    </div>
-  </>
-    )}
-      
+        <>
+          <div className="grid gap-4 grid-cols-3">
+            <div className="w-full lg:w-1/2">
+              <h1 className="text-2xl font-bold mb-2">Applications:</h1>
+              <ul className="list-disc list-inside mb-4">
+                {matchedService.applications.map((application, index) => (
+                  <li key={index}>{application}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="w-full lg:w-1/2">
+              <h1 className="text-2xl font-bold mb-2">Features:</h1>
+              <ul className="list-disc list-inside">
+                {matchedService.features.map((feature, index) => (
+                  <li key={index}>{feature}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </>
+      )}
+
     </div>
   );
 };

@@ -1,13 +1,9 @@
-import React from "react";
-import Image from "next/image";
-// import { ContactImg } from "../utilis/images";
+
 
 const Contact = () => {
   return (
     <>
-      <div className="relative bg-cover bg-center">
-        <div className="absolute inset-0"></div>
-
+      <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12" id="contact">
         <div className="container mx-auto px-4 py-8 relative">
           <div className="flex flex-wrap">
             <div className="lg:w-5/12 md:w-full sm:w-full mb-8 lg:mb-0">
