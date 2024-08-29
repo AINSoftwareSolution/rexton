@@ -14,6 +14,7 @@ import OutdoorLed from "./OutdoorLED.webp"
 import IndoorLed from "./Indoor-HD-LED-Screen-2.webp"
 import RentalImg from "./rental.jpg"
 import DigitalImg from "./Digital-Signage.jpg-3.webp"
+import BannerImg2 from "./banner-img3.jpg"
 // Client
 import ClientImage1 from "./client/client01.png"
 import ClientImage2 from "./client/client02.png"
@@ -55,6 +56,7 @@ export{
     ClientImage9,
     ClientImage10,
     ApplicationOutdoor,
-    ApplicationIndoorLed
+    ApplicationIndoorLed,
+    BannerImg2
     
 }
