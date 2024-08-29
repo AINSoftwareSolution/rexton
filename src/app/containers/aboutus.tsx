@@ -1,19 +1,15 @@
 import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-
-// import { AboutImage } from "../utilis/images"
-import Button from './Button';
+import { Button } from '../components';
 
 const AboutUs = () => {
   return (
-   <>
-    <div className="container mx-auto px-4 ">
+    <>
+      <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12">
         <div className="flex flex-wrap lg:flex-nowrap">
           <div className="w-full lg:w-5/12 p-2 mb-4 mt-5">
             <div>
-            <h1 className="text-4xl font-bold text-purple-700">
-           <span className="block text-black">About Us</span></h1>
+              <h1 className="text-4xl font-bold text-purple-700">
+                <span className="block text-black">About Us</span></h1>
               <p className="mt-2">
                 Established in 2016, REXTON Advertising has become one of India&apos;s leading suppliers of LED Displays,
                 LED Signages, and LED Mobile Vans. With over 8,000 square feet of LED screens installed across the country,
@@ -27,7 +23,7 @@ const AboutUs = () => {
                 <li>Outdoor LED Displays</li>
                 <li>Indoor LED Displays</li>
               </ul>
-              <div className="mt-3">
+              <div className="mt-8">
                 <Button />
               </div>
             </div>
@@ -35,11 +31,10 @@ const AboutUs = () => {
 
           {/* Right Column: Image and Stats Section */}
           <div className="w-full lg:w-7/12 lg:ml-8 mt-8 lg:mt-0 rounde-lg p-5 ">
-          <video className="h-full w-full rounded-lg" controls autoPlay muted>
-      <source src="/about-video.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-
+            <video className="h-full w-full rounded-lg" autoPlay muted>
+              <source src="/about-video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
