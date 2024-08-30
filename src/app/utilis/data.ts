@@ -101,7 +101,7 @@ export const featuresData = [
       fullDescription: 'Digital Graphic Display is a popular choice for Digital Signage applications. The screens come with an in-built HD media player which requires no additional hardware. Various sizes of screens are available to your requirement. A button less tempered glass frontage on the digital screen display adds to the elegant look.        These screens are commercial grade display systems which have been designed for constant use and have exceptional brightness. Each screen is supplied with free scheduling software allowing you to design your advertising message and set scrolling text to play at different times of day. The displays also include inbuilt speakers and HDMI/VGA inputs for connecting to other media sources. DGDs modern screens also run on Android/Widows platform, with super slim proffles, making them the most striking displays on the market. DGDs also have Touch based screens for interactive purposes.',
       link: "/services/digital-displays",  
       applications: ["Malls", "Retail Stores", "Hotels","Airpot", "Multiplexes", "Offices", "Events", "Hospitals"],
-      features: ["Sleek & Stylish Design", "Commercial Grade Display", "Auto Timer On / Off Functions", "Image and Video Playback","Slide Show Timer", "Auto Looping", "24*7 Playback"],
+      features: ["Sleek & Stylish Design", "Commercial Grade Display", "Auto Timer On / Off Functions", "Image and Video Playback","Slide Show Timer", "Auto Looping", "24*7 Playback", "Auto Looping"],
       imgSrc: DigitalImg,
       imgAlt: 'Main Billboard Image',
       reverse: true,
