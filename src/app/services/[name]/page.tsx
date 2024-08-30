@@ -43,10 +43,7 @@ const ServiceDetails = ({ params }: { params: { name: string } }) => {
           {/* Left Column: Text Section */}
           <div className="w-full lg:w-5/12 p-4 lg:p-2 mb-5 mt-5">
             <h2 className="text-4xl font-bold mb-4">{matchedService.title}</h2>
-            <p className="mt-2">{matchedService.fullDescription}</p>
-            <div className="mt-3">
-              <Button />
-            </div>
+            <p className="mt-2">{matchedService.fullDescription}</p>  
           </div>
 
           {/* Right Column: Image and Stats Section */}
