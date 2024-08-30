@@ -24,7 +24,7 @@ const AboutUs = () => {
                 <li>Indoor LED Displays</li>
               </ul>
               <div className="mt-8">
-                <Button />
+                <Button  title='Contact Us' link='#contact'/>
               </div>
             </div>
           </div>

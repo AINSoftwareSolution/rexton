@@ -64,7 +64,7 @@ export const featuresData = [
       description:
         'Outdoor LED displays utilize DIP and SMD technology, with pitch options like P2.5, P3, P3.91, P4, P4.8, P5, P6, P8, and P10. Our outdoor LEDs, including Nationstar, offer high reliability, contrast, wide viewing angles, and excellent consistency.',
       fullDescription:' Outdoor LED displays are based on DIP and SMD technology. Outdoor pitch are P 2.5, P3, P3.91, P 4, P 4.8, P 5, P6, P8, P10. The outdoor LED&apos;s we choose we use Nationstar that have the high reliability and contrast, wide view angle and good consistency which meet the need of high brightness, high refresh rate, high greyscale. To achieve the best visual performance of our indoor and outdoor led display, we use the best driving IC such as MBI 5124,6124,5024 grey level latest technology. All models in outdoor as IP68 waterproof standard. No extra cooling or heating system is needed during the working period. A completed solution with both Front and rear service, The Energy saving modules, an average consumption as low as 200 watts/m2 High Brightness from 6500-8000 MCD(Nits) with Nationstar, Epistar,Quangli, and Kingslite LED chips and driving IC.',
-      link: "/service/outdoor-led-screens",  
+      link: "/services/outdoor-led-screens",  
       video: "/Indoor-LED.mp4",
       imgSrc: OutdoorLed,
       applicationImg: ApplicationOutdoor,

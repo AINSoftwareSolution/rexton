@@ -27,7 +27,7 @@ const ServiceDetails = ({ params }: { params: { name: string } }) => {
           <h2 className="text-4xl font-bold mb-4">{matchedService.title}</h2>
           <p className="mt-2">{matchedService.fullDescription}</p>
           <div className="mt-3">
-            <Button />
+            {/* <Button /> */}
           </div>
         </div>
 
