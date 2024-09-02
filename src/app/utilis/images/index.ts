@@ -1,5 +1,6 @@
 import BannerImage from "./banner-Img.png"
 // import AboutImage from "./about-image.jpg"
+import LogoImg from "./logo.jpeg"
 import FeatureImg1 from "./out-door-billboard.jpg"
 import FeatureImg2 from "./indoor.jpg"
 import FeatureImg3 from "./digital.jpg"
@@ -32,6 +33,7 @@ import ApplicationIndoorLed from "./appication-indoor.jpeg"
 export{
     BannerImage,
     // AboutImage,
+    LogoImg,
     FeatureImg1,
     FeatureImg2,
     FeatureImg3,

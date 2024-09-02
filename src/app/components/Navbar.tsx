@@ -1,5 +1,7 @@
 'use client'
 import Link from 'next/link'
+import Image from 'next/image'
+import { LogoImg } from '../utilis/images'
 import React, { useState, useEffect } from 'react'
 
 const Navbar = () => {
@@ -30,7 +32,7 @@ const Navbar = () => {
             <nav className={`fixed w-full z-20 top-0 start-0 border-gray-200 transition-colors duration-300 shadow-lg ${isScrolled ? 'bg-white text-black' : 'text-white'}`}>
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap">Rexton</span>
+                    <Image src={LogoImg} className="w-25 h-25" alt="logo img"></Image>
                     </Link>
 
                     <div className="flex md:hidden">

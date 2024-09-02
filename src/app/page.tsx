@@ -7,26 +7,43 @@ import { AboutUs, Contact, Client, Gallery, Features,  ServiceList } from './con
 const Home = () => {
   return (
     <>
-      <div className="relative inset-0 h-screen w-full flex items-center justify-center text-center  banner">
-        <Image
-          src={BannerImage}
-          alt="Main Billboard Image"
-          layout="fill"
-          objectFit="cover"
-          quality={100}
-          className="absolute inset-0 z-[-1]"
-        />
+    <div className="w-full">
+    <div className="relative inset-0 h-screen w-full flex items-center justify-center text-center overflow-hidden">
+    <Image
+        src={BannerImage}
+        alt="Main Billboard Image"
+        layout="fill"
+        objectFit="cover"
+        quality={100}
+        className="absolute inset-0 z-[-1]"
+    />
 
-        {/* Overlay and Content */}
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center p-8">
-          <h1 className="text-4xl font-bold text-white mb-4">
-            Welcome to Our Website
-          </h1>
-          <p className="text-lg text-white">
-            Your journey to success starts here.
-          </p>
-        </div>
-      </div>
+    {/* Overlay and Content */}
+    <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center p-8">
+        <h1 className="text-4xl font-bold text-white mb-4">
+        Leading the Way in LED Innovation
+        </h1>
+        <h3 className="text-lg text-white">
+        India&apos;s Premier Supplier of LED Displays and Signages
+        </h3>
+        <div className="mt-5">
+              <button type="submit" className="box-border relative z-30 inline-flex items-center justify-center w-auto px-8 py-3 banner-button
+            overflow-hidden font-bold text-white transition-all duration-300 rounded-md cursor-pointer 
+            group  ease 
+            focus:outline-none hover:shadow-[0_4px_10px_rgba(140,72,77,0.4),0_4px_10px_rgba(99,56,84,0.3),0_4px_10px_rgba(46,23,95,0.3)]"
+                >
+                <span className="absolute bottom-0 right-0 w-8 h-20 -mb-8 -mr-5 transition-all duration-300 ease-out 
+                transform rotate-45 translate-x-1 bg-white opacity-10 group-hover:translate-x-0"></span>
+                <span className="absolute top-0 left-0 w-20 h-8 -mt-1 -ml-12 transition-all duration-300 ease-out
+                 transform -rotate-45 -translate-x-1 bg-white opacity-10 group-hover:translate-x-0"></span>
+                <span className="relative z-20 flex items-center text-sm">
+                  Learn More
+                </span>
+              </button>
+            </div>
+    </div> 
+</div>
+</div>
 
       <AboutUs />
 

@@ -3,8 +3,8 @@ import { Title } from "../components";
 
 const Contact = () => {
   return (
-    <>
-      <div className=" bg-[#2e176017] container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12" id="contact">
+    <div className="bg-[#2e176017]">
+      <div className="  container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12" id="contact">
         <Title heading="Contact us" subheading="Reach us easily complete the form or find our address" />
         <div className="flex flex-wrap">
           <div className="lg:w-5/12 md:w-full sm:w-full mb-8 lg:mb-0">
@@ -211,7 +211,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

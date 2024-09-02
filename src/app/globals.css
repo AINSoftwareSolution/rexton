@@ -9,6 +9,10 @@ body{
   overflow-x: hidden;
 }
 
+.banner-button{
+  background-color:blue;
+}
+
 .color-bg{
   background: linear-gradient(180deg, #8c484d 0%, #633854 40%, #2e175f 75%, #2e1761 100%);}
 

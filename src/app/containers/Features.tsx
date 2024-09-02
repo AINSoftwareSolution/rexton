@@ -5,7 +5,8 @@ import { featuresData } from '../utilis/data'
 
 const Features = () => {
     return (
-        <div className=" bg-[#2e176017] container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12">
+        <div className= "bg-[#2e176017]">
+        <div className=" container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12">
             <Title heading='Our Features' subheading='Supercharge Your Business with Billboards' />
             <div className="mt-10">
                 <div className="flex flex-wrap -mx-4">
@@ -33,6 +34,7 @@ const Features = () => {
                 </div>
             </div>
         </div>
+     </div>
     )
 }
 

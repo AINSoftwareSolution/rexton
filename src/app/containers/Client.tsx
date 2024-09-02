@@ -6,6 +6,7 @@ import { Title } from '../components'
 
 const Client = () => {
   return (
+    <div className="bg-[#2e176017]">
       <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12 overflow-hidden">
         <Title heading='Our Clients' subheading='Partnerships Built on Excellence and Trust' />
         <div className="flex space-x-6 animate-marquee">
@@ -21,6 +22,7 @@ const Client = () => {
           ))}
         </div>
       </div>
+    </div>
   )
 }
 

@@ -5,7 +5,8 @@ import { galleryData } from '../utilis/data'
 
 const Gallery = () => {
     return (
-        <div className=" bg-[#2e176017] container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-4">
+        <div className="bg-[#2e176017] ">
+        <div className=" container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-4">
             <div className="latest-gallery mt-4">
                 <Title heading='Latest Gallery' subheading='Captivate Your Audience with Billboard Magic' />
                 <div className="flex flex-wrap mb-4">
@@ -30,6 +31,7 @@ const Gallery = () => {
                 </div>
             </div>
         </div>
+     </div>
     )
 }
 
