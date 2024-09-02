@@ -17,7 +17,7 @@ const ServiceList = () => {
                 {/* Text Section */}
                 <div className="w-full lg:w-4/8 p-5 lg:pr-4 flex flex-col justify-between">
                   <div className="about-text">
-                    <h1 className="text-3xl font-bold leading-snug">
+                    <h1 className="text-2xl font-bold leading-snug">
                       {service.title}
                     </h1>
                     <p className="mt-3 leading-relaxed">{service.description}</p>

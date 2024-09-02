@@ -3,7 +3,8 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className=" bg-slate-900">
+     
+        <div className=" bg-slate-900 footer">
             <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
@@ -85,7 +86,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+  
 
     )
 }

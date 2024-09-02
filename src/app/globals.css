@@ -8,35 +8,15 @@ body{
   padding: 0;
   overflow-x: hidden;
 }
-/* 
-.banner{
-  background-image: url("../utilis/images/banner-Img.png");
-} */
 
-
-
-
-.choose-us{
-  /* background-image: url("../app/utilis/images/black-background.jpg"); */
-} 
-
-
-
-@keyframes marquee {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
+.banner-button{
+  background-color:blue;
 }
 
-.animate-marquee {
-  display: flex;
-  animation: marquee 20s linear infinite;
-}
+.color-bg{
+  background: linear-gradient(180deg, #8c484d 0%, #633854 40%, #2e175f 75%, #2e1761 100%);}
 
-.animate-marquee:hover {
-  animation-play-state: paused;
-}
+
+
+
 
