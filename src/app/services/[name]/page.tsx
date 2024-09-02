@@ -59,7 +59,7 @@ const ServiceDetails = ({ params }: { params: { name: string } }) => {
           ) : (
              <Image src={matchedService.imgSrc} alt={matchedService.imgAlt} />
           )}
-        </div>     
+        </div>
       </div>
 
    {matchedService.applicationImg ? (

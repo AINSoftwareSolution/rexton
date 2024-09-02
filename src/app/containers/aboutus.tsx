@@ -4,7 +4,7 @@ import { Button } from '../components';
 const AboutUs = () => {
   return (
     <>
-      <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12">
+      <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12" id='about-us'>
         <div className="flex flex-wrap lg:flex-nowrap">
           <div className="w-full lg:w-5/12 p-2 mb-4 mt-5">
             <div>
