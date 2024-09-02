@@ -24,7 +24,7 @@ const Home = () => {
         Leading the Way in LED Innovation
         </h1>
         <h3 className="text-lg text-white">
-        India's Premier Supplier of LED Displays and Signages
+        India&apos;s Premier Supplier of LED Displays and Signages
         </h3>
         <div className="mt-5">
               <button type="submit" className="box-border relative z-30 inline-flex items-center justify-center w-auto px-8 py-3 banner-button
