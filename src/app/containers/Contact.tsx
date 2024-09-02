@@ -4,15 +4,15 @@ import { Title } from "../components";
 const Contact = () => {
   return (
     <>
-      <div className="container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12" id="contact">
+      <div className=" bg-[#2e176017] container inset-0 mx-auto px-2 py-8 lg:px-12 lg:py-12" id="contact">
         <Title heading="Contact us" subheading="Reach us easily complete the form or find our address" />
         <div className="flex flex-wrap">
           <div className="lg:w-5/12 md:w-full sm:w-full mb-8 lg:mb-0">
             <ul className="space-y-4">
               <li className="flex items-start space-x-4">
-                <div className="text-blue-500 text-2xl">
+                <div className=" text-2xl">
                   <svg
-                    className="h-8 w-8 text-red-500"
+                    className="h-6 w-6 text-[#2e1760] font-black"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -25,7 +25,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <strong className="text-lg font-semibold">
+                  <strong className="text-[#2e1760] text-lg font-bold">
                     Call Anytime
                   </strong>
                   <div className="text-gray-700">
@@ -34,9 +34,9 @@ const Contact = () => {
                 </div>
               </li>
               <li className="flex items-start space-x-4">
-                <div className="text-blue-500 text-2xl">
+                <div className=" text-2xl">
                   <svg
-                    className="h-8 w-8 text-red-500"
+                    className="h-6 w-6 text-[#2e1760] font-black"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -57,7 +57,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <strong className="text-lg font-semibold">
+                  <strong className="text-[#2e1760] text-lg font-bold">
                     ALCON STYLUS
                   </strong>
                   <div className="text-gray-700">
@@ -67,9 +67,9 @@ const Contact = () => {
                 </div>
               </li>
               <li className="flex items-start space-x-4">
-                <div className="text-blue-500 text-2xl">
+                <div className=" text-2xl">
                   <svg
-                    className="h-8 w-8 text-red-500"
+                    className="h-6 w-6 text-[#2e1760] font-black"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -90,8 +90,8 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <strong className="text-lg font-semibold">
-                    MANDARIN{" "}
+                  <strong className="text-[#2e1760] text-lg font-bold">
+                    MANDARIN
                   </strong>
                   <div className="text-gray-700">
                     First Floor, Mapusa, Goa
@@ -100,9 +100,9 @@ const Contact = () => {
               </li>
 
               <li className="flex items-start space-x-4">
-                <div className="text-blue-500 text-2xl">
+                <div className=" text-2xl">
                   <svg
-                    className="h-8 w-8 text-red-500"
+                    className="h-6 w-6 text-[#2e1760] font-black"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -123,7 +123,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <strong className="text-lg font-semibold">PANIPAT</strong>
+                  <strong className="text-[#2e1760] text-lg font-bold">PANIPAT</strong>
                   <div className="text-gray-700">
                     Gala No 4/5/6 Near Irfan Body Maker Risalu Road Panipat
                   </div>
@@ -131,9 +131,9 @@ const Contact = () => {
               </li>
 
               <li className="flex items-start space-x-4">
-                <div className="text-blue-500 text-2xl">
+                <div className=" text-2xl">
                   <svg
-                    className="h-8 w-8 text-red-500"
+                    className="h-6 w-6 text-[#2e1760] font-black"
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
@@ -141,16 +141,16 @@ const Contact = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   >
-                    {" "}
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />{" "}
+
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                     <polyline points="22,6 12,13 2,6" />
                   </svg>
                 </div>
 
                 <div>
-                  <strong className="text-lg font-semibold">
+                  <strong className="text-[#2e1760] text-lg font-bold">
                     Email Address
-                  </strong>{" "}
+                  </strong>
                   <br />
                   <a
                     className="text-dark hover:underline"
@@ -193,9 +193,12 @@ const Contact = () => {
 
             <div className="mt-5">
               <button type="submit" className="box-border relative z-30 inline-flex items-center justify-center w-auto px-8 py-3 
-            overflow-hidden font-bold text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer 
-            group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease 
-            focus:outline-none">
+            overflow-hidden font-bold text-white transition-all duration-300 rounded-md cursor-pointer 
+            group  ease 
+            focus:outline-none hover:shadow-[0_4px_10px_rgba(140,72,77,0.4),0_4px_10px_rgba(99,56,84,0.3),0_4px_10px_rgba(46,23,95,0.3)]"
+                style={{
+                  background: 'linear-gradient(180deg, #8c484d 0%, #633854 40%, #2e175f 75%, #2e1761 100%)',
+                }}>
                 <span className="absolute bottom-0 right-0 w-8 h-20 -mb-8 -mr-5 transition-all duration-300 ease-out 
                 transform rotate-45 translate-x-1 bg-white opacity-10 group-hover:translate-x-0"></span>
                 <span className="absolute top-0 left-0 w-20 h-8 -mt-1 -ml-12 transition-all duration-300 ease-out
