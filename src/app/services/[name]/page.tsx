@@ -42,12 +42,14 @@ const ServiceDetails = ({ params }: { params: { name: string } }) => {
         <div className="flex flex-wrap lg:flex-nowrap">
           {/* Left Column: Text Section */}
           <div className="w-full lg:w-5/12 p-4 lg:p-2 mb-5 mt-5">
-            <h2 className="text-4xl font-bold mb-4">{matchedService.title}</h2>
-            <p className="mt-2">{matchedService.fullDescription}</p>  
+            <h1 className="text-3xl font-black	bg-clip-text text-transparent bg-gradient-to-b from-[#8c484d] via-[#633854] to-[#2e1761]">
+              {matchedService.title}
+            </h1>
+            <p className="mt-2">{matchedService.fullDescription}</p>
           </div>
 
           {/* Right Column: Image and Stats Section */}
-          <div className="w-full lg:w-7/12 lg:ml-8 mt-8 lg:mt-0 rounded-lg p-5">
+          <div className="w-full lg:w-7/12 lg:ml-8 mt-8 lg:mt-0 rounded-lg p-5 ">
             {matchedService.video ? (
               <video className="h-full w-full rounded-lg" autoPlay muted>
                 <source src={matchedService.video} type="video/mp4" />
@@ -62,10 +64,10 @@ const ServiceDetails = ({ params }: { params: { name: string } }) => {
         {matchedService.applicationImg ? (
           <>
             {/* //  Application Section */}
-            <div className="text-4xl text-start font-bold mb-4 mt-5 px-4">
+            <h1 className="text-3xl font-black	bg-clip-text text-transparent bg-gradient-to-b from-[#8c484d] via-[#633854] to-[#2e1761]">
               Applications:
-            </div>
-            <div className="relative flex justify-center items-center px-4 pr-4 mt-4 mb-5">
+            </h1>
+            <div className="relative flex justify-center items-center px-4 pr-4 mt-4 mb-5 color-bg">
               <Image
                 src={ApplicationIndoorLed}
                 alt="Main Billboard Image"

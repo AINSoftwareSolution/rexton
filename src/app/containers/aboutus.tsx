@@ -8,8 +8,8 @@ const AboutUs = () => {
         <div className="flex flex-wrap lg:flex-nowrap">
           <div className="w-full lg:w-5/12 p-2 mb-4 mt-5">
             <div>
-              <h1 className="text-4xl font-bold text-purple-700">
-                <span className="block text-black">About Us</span></h1>
+              <h1 className="text-3xl font-black	bg-clip-text text-transparent bg-gradient-to-b from-[#8c484d] via-[#633854] to-[#2e1761]">
+                About Us</h1>
               <p className="mt-2">
                 Established in 2016, REXTON Advertising has become one of India&apos;s leading suppliers of LED Displays,
                 LED Signages, and LED Mobile Vans. With over 8,000 square feet of LED screens installed across the country,
@@ -24,7 +24,7 @@ const AboutUs = () => {
                 <li>Indoor LED Displays</li>
               </ul>
               <div className="mt-8">
-                <Button  title='Contact Us' link='#contact'/>
+                <Button title='Contact Us' link='#contact' />
               </div>
             </div>
           </div>
