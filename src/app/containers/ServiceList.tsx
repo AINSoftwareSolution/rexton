@@ -22,7 +22,7 @@ const ServiceList = () => {
                     </h1>
                     <p className="mt-3 leading-relaxed">{service.description}</p>
                     <div className="mt-5">
-                      <Button />
+                      <Button  title='Know More' link={service.link}/>
                     </div>
                   </div>
                 </div>

@@ -87,8 +87,8 @@ const Home = () => {
       <Features  />
       <ServiceList />
       <Gallery />
-      <Contact />
       <Client />
+      <Contact />
     </>
   );
 };
